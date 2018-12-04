@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GameCenter</string>
+    <string name="signIn_button">Sign In</string>
+    <string name="signUp_button">Sign Up</string>
+    <string name="slidingTileStarting" />
+    <string name="minesweeperStarting" />
+    <string name="sudokuStarting" />
+</resources>

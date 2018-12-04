@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/saved_game"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/autosave"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="106dp"
+        android:onClick="autoSaveClick"
+        android:text="Load Auto Save"
+        android:textSize="7.5pt" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="150dp"
+        android:textSize="7.5pt"
+        android:text="SAVE1"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="150dp"
+        android:textSize="7.5pt"
+        android:text="SAVE2"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="150dp"
+        android:textSize="7.5pt"
+        android:text="SAVE3"
+        android:onClick="onClick" />
+
+</RelativeLayout>

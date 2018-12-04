@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="traina.david.slidingtilegame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="traina.david.UI.Global">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameActivity" />
+        <activity android:name="traina.david.UI.StartingActivity" />
+        <activity android:name="traina.david.UI.SignIn" />
+        <activity android:name="traina.david.UI.SignUp" />
+        <activity android:name="traina.david.UI.LocalGameCenterActivity" />
+        <activity android:name="traina.david.UI.GameListActivity" />
+        <activity android:name=".ComplexityActivity" />
+        <activity android:name="traina.david.UI.GlobalScoreBoardActivity" />
+        <activity android:name="traina.david.UI.LocalScoreBoardActivity" />
+        <activity android:name="traina.david.UI.SaveSlot" />
+        <activity android:name="traina.david.minesweepergame.MinesweeperSettings" />
+        <activity android:name="traina.david.minesweepergame.MinesweeperActivity" />
+        <activity android:name="traina.david.sudokugame.SudokuGameActivity" />
+        <activity android:name="traina.david.sudokugame.SudokuSettingsActivity" />
+    </application>
+
+</manifest>

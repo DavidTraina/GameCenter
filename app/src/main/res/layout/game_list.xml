@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/gamelist"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/sudokuGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_list"
+        android:layout_alignEnd="@+id/game_list"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="-19dp"
+        android:text="Sudoku Game" />
+
+    <Button
+        android:id="@+id/minesweeperGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_list"
+        android:layout_alignEnd="@+id/game_list"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="-42dp"
+        android:text="Minesweeper Game" />
+
+    <TextView
+        android:id="@+id/game_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:textSize="12pt"
+        android:text="Games" />
+
+    <Button
+        android:id="@+id/slidingTileGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Sliding Tile Game" />
+
+</RelativeLayout>
